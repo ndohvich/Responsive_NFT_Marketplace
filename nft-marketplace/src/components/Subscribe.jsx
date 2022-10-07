@@ -70,4 +70,34 @@ const Section = styled.section`
             }
         }
     }
+    @media screen and (min-width: 280px) and (max-width: 1080px) {
+        flex-direction: column;
+        margin: 0 2rem;
+        gap: 2rem;
+        margin-bottom: 2rem;
+        .image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            height: 80vw;
+          }
+        }
+        .content {
+          gap: 1rem;
+          h2 {
+            font-size: 2rem;
+          }
+          p {
+            line-height: 1.4rem;
+          }
+          .input-container {
+            display: none;
+            width: max-content;
+            input {
+              width: 50%;
+            }
+          }
+        }
+      }
 `;

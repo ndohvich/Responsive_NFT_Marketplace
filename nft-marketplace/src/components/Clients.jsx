@@ -29,4 +29,26 @@ const Section = styled.section`
     align-items: center;
     margin: 0 2rem;
     margin-bottom: 5rem;
+    @media screen and (min-width: 280px) and (max-width: 1080px) {
+        flex-direction: column;
+        margin: 2rem;
+        .image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            height: 50vw;
+          }
+        }
+        .content {
+          gap: 1rem;
+          h2 {
+            font-size: 1rem;
+          }
+          p {
+            line-height: 1.3rem;
+            font-size: 0.9rem;
+          }
+        }
+      }
 `;
