@@ -19,7 +19,7 @@ export default function Choose() {
             <Button text="Read More" blue />
         </div>
     </Section>
-  )
+  );
 }
 
 const Section = styled.section`
@@ -34,8 +34,9 @@ const Section = styled.section`
         justify-content: center;
         flex-direction: column;
         gap: 3rem;
+        padding: 0 50px;
         h2{
-            fonct-size: 4rem;
+            font-size: 4rem;
         }
         p{
             color: #7b7e86;

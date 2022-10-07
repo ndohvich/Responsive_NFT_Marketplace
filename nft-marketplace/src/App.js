@@ -3,6 +3,7 @@ import Clients from './components/Clients';
 import CreateAndSell from './components/CreateAndSell';
 import Home from './components/Home';
 import Choose from './components/Choose';
+import { Marketplace } from './components/Marketplace';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Clients />
       <CreateAndSell />
       <Choose />
+      <Marketplace />
     </div>
   )
 }
