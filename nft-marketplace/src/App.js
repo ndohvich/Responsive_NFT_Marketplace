@@ -4,6 +4,7 @@ import CreateAndSell from './components/CreateAndSell';
 import Home from './components/Home';
 import Choose from './components/Choose';
 import { Marketplace } from './components/Marketplace';
+import Subscribe from './components/Subscribe';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <CreateAndSell />
       <Choose />
       <Marketplace />
+      <Subscribe />
     </div>
   )
 }
