@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import { FaChevronUp } from "react-icons/fa";
+
 function ScrollToTop() {
   const [visible, setVisible] = useState(false);
   window.addEventListener("scroll", () => {
